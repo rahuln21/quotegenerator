@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* make the body take up the full height of the viewport */
+}
+
+header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 16px;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.select-category {
+    margin-bottom: 16px;
+}
+
+select {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #3f51b5;
+    padding: 8px;
+    font-size: 16px;
+    color: #3f51b5;
+}
+
+.quote-container {
+    margin-bottom: 16px;
+    flex: 1; /* take up remaining space in the body */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center the container horizontally */
+  justify-content: center; /* center the container vertically */
+}
+
+#quote-text {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+#quote-author {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.button-container {
+    text-align: center;
+}
+
+#new-quote-button {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+#new-quote-button:hover {
+    background-color: #303f9f;
+}
+
+footer {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+}

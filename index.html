@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quote Generator</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Quote Generator</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="select-category">
+          <label for="category-select">Select Category:</label>
+          <select id="category-select">
+            <option value="all">All</option>
+            <option value="inspirational">Inspirational</option>
+            <option value="funny">Funny</option>
+            <option value="love">Love</option>
+            <option value="motivational">Motivational</option>
+            <option value="life">Life</option>
+            <option value="success">Success</option>
+          </select>
+        </div>
+        <div class="quote-container">
+          <p id="quote-text"></p>
+          <p id="quote-author"></p>
+        </div>
+        <div class="button-container">
+          <button id="new-quote-button" class="material-icons">refresh</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Quote Generator</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
